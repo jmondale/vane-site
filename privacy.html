@@ -12,19 +12,20 @@
 
 <h2>Information the app stores on your device</h2>
 <ul>
-<li>Your <strong>selected place</strong> and your <strong>unit preference</strong>, so the app opens where you left it.</li>
+<li>Your <strong>selected place</strong> and your <strong>unit preference</strong>, so the app opens where you left it, and whether you were using <strong>My Location</strong>.</li>
+<li>Your <strong>saved cities</strong>, the ones you've starred.</li>
 <li>The <strong>places you've looked up</strong> (up to 50), so a widget can be set to any of them.</li>
 <li>The <strong>latest forecast</strong> for each place a widget shows, so the widget still has something to display if a refresh fails.</li>
 </ul>
 <p>This information stays on your device, shared only between the app and its widgets. It is not sent to the developer, and deleting the app deletes it.</p>
 
 <h2>Location</h2>
-<p>The app does not access your device's location. You choose a city by searching for it.</p>
+<p>The app uses your device's location only if you tap <strong>My Location</strong> and allow it. It asks for approximate, city-level accuracy, finds the city you're in, and shows that city's weather. Your location is used at that moment and isn't stored, apart from remembering that you chose My Location, so the app can show it again next time. You can turn location access off at any time in your device's Settings; searching for cities works without it.</p>
 
 <h2>Third-party services</h2>
 <p>To work, the app requests data from the services below. Like any internet request, these requests reveal your IP address to the service.</p>
 <ul>
-<li><strong>Apple Maps search</strong> receives the text you type into the search field, to suggest matching cities.</li>
+<li><strong>Apple Maps search</strong> receives the text you type into the search field, to suggest matching cities, and, if you use My Location, your location, to find the city you're in.</li>
 <li><strong>Apple Weather</strong> (WeatherKit) receives the coordinates of the place you select, to return its forecast.</li>
 <li><strong>Apple Maps</strong> provides the map under the radar.</li>
 <li><strong>Environment and Climate Change Canada</strong> (MSC GeoMet) receives requests for radar images covering the area shown on the radar map. The requests identify the app as Vane, but not you.</li>
